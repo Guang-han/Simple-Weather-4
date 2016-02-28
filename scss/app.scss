@@ -1,0 +1,150 @@
+@import "settings";
+@import "foundation";
+
+
+body{
+    font: sans-serif;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+
+
+#wdata1 {
+    color:red;
+}
+#wdata2 {
+    color:red;
+}
+#wdata3 {
+    color:red;
+}
+
+.row {
+    max-width: 1200px;
+    background-color: rgba(255,255,255,0.6);
+  }
+.search{
+    background-color: rgba(255,255,255,0);
+}
+
+.wday {
+    border-bottom: solid lightgreen;
+}
+
+.wdata {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.GoButton {
+    padding:9.5px;
+    float: left;
+}
+
+@media only screen and (max-width: 50em) {
+
+p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+.today {
+    margin-top: 53px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: right;
+    font-family: 'Poiret One', sans-serif;
+}
+
+ .icon {
+    margin-top:140px;
+ }
+ .BigSun {
+      border: 0px;
+     padding: 40px;
+}
+ .OP {
+    padding-top: 50px;
+}
+}
+
+
+@media only screen and (min-width: 50em) {
+
+p {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+.today {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    text-align: right;
+    font-family: 'Poiret One', sans-serif;
+}
+    
+.icon {
+    margin-top:70px;
+}
+ .BigSun {
+    border: 0px;
+    padding-top: 240px;
+}
+ .OP {
+    padding-top: 250px;
+}
+}
+    
+
+
+.wdata1 {
+    color:red;
+}
+
+a:link {color: black;text-decoration: none}
+a:visited {color: black;text-decoration:none}
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
